@@ -1,0 +1,56 @@
+﻿生成启动时间为 2017/9/28 21:53:32。
+     1>项目“C:\Users\红菱\Desktop\OpenCV\opencv\opencv\opencv.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\opencv.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         H:\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\opencv.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt opencvDlg.cpp
+         opencvDlg.cpp
+     1>h:\opencv\opencv3.0\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\opencv\opencv3.0\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\opencv\opencv3.0\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\opencv\opencv3.0\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\opencv\opencv3.0\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\红菱\desktop\opencv\opencv\opencv\opencvdlg.cpp(618): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\红菱\desktop\opencv\opencv\opencv\opencvdlg.cpp(623): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\红菱\desktop\opencv\opencv\opencv\opencvdlg.cpp(625): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\红菱\desktop\opencv\opencv\opencv\opencvdlg.cpp(634): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>c:\users\红菱\desktop\opencv\opencv\opencv\opencvdlg.cpp(634): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>c:\users\红菱\desktop\opencv\opencv\opencv\opencvdlg.cpp(664): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\红菱\desktop\opencv\opencv\opencv\opencvdlg.cpp(666): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\红菱\desktop\opencv\opencv\opencv\opencvdlg.cpp(675): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>c:\users\红菱\desktop\opencv\opencv\opencv\opencvdlg.cpp(675): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>c:\users\红菱\desktop\opencv\opencv\opencv\opencvdlg.cpp(700): warning C4305: “初始化”: 从“double”到“float”截断
+     1>c:\users\红菱\desktop\opencv\opencv\opencv\opencvdlg.cpp(705): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\红菱\desktop\opencv\opencv\opencv\opencvdlg.cpp(707): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\红菱\desktop\opencv\opencv\opencv\opencvdlg.cpp(716): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>c:\users\红菱\desktop\opencv\opencv\opencv\opencvdlg.cpp(716): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>c:\users\红菱\desktop\opencv\opencv\opencv\opencvdlg.cpp(738): warning C4305: “初始化”: 从“double”到“float”截断
+     1>c:\users\红菱\desktop\opencv\opencv\opencv\opencvdlg.cpp(743): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\红菱\desktop\opencv\opencv\opencv\opencvdlg.cpp(745): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\红菱\desktop\opencv\opencv\opencv\opencvdlg.cpp(754): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>c:\users\红菱\desktop\opencv\opencv\opencv\opencvdlg.cpp(754): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         H:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\红菱\Desktop\OpenCV\opencv\Debug\opencv.exe" /INCREMENTAL /NOLOGO opencv_ts300.lib opencv_world300.lib /MANIFEST /ManifestFile:"Debug\opencv.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\红菱\Desktop\OpenCV\opencv\Debug\opencv.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\红菱\Desktop\OpenCV\opencv\Debug\opencv.lib" /MACHINE:X86 Debug\opencv.res
+         Debug\opencv.exe.embed.manifest.res
+         Debug\opencv.obj
+         Debug\opencvDlg.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\opencv.exe.embed.manifest" /manifest Debug\opencv.exe.intermediate.manifest H:\VS2010\VC\Include\Manifest\dpiaware.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         opencv.vcxproj -> C:\Users\红菱\Desktop\OpenCV\opencv\Debug\opencv.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\opencv.unsuccessfulbuild”。
+         正在对“Debug\opencv.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\红菱\Desktop\OpenCV\opencv\opencv\opencv.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.40
